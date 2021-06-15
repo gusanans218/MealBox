@@ -11,13 +11,6 @@
     android:orientation="vertical"
     tools:context=".Splash">
 
-    <com.kizitonwose.calendarview.CalendarView
-        android:id="@+id/calendarView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cv_dayViewResource="@layout/calender_day_layout" />
-
-
 
 
     <FrameLayout
@@ -67,6 +60,7 @@
             android:layout_marginTop="-86dp"
             android:background="@drawable/ellipse_2"
             />
+
 
     </FrameLayout>
 
