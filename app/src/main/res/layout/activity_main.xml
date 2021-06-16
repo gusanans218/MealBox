@@ -40,9 +40,7 @@
             android:id="@+id/ellipse_5"
             android:layout_width="257dp"
             android:layout_height="235dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="-110dp"
+            android:layout_marginStart="-110dp"
             android:layout_marginTop="-30dp"
             android:background="@drawable/ellipse_5" />
 
@@ -51,9 +49,7 @@
             android:id="@+id/ellipse_2"
             android:layout_width="170dp"
             android:layout_height="164dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="31dp"
+            android:layout_marginStart="31dp"
             android:layout_marginTop="-86dp"
             android:background="@drawable/ellipse_2" />
 
@@ -73,6 +69,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
+        <View
+            android:layout_width="370dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="448dp"
+            android:background="@color/pink_700"
+
+
+            />
 
     </FrameLayout>
 
